@@ -1,3 +1,5 @@
+#  모음의 개수
+
 while 1:
     word = input()
     if word == '#':
