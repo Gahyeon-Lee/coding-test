@@ -4,7 +4,11 @@
 coins = [500, 100, 50, 10, 5, 1]
 count = []
 
-money = int(input())
+n = int(input())
+money = 1000 - n
 
 for coin in coins:
-    money = 10000 // coin
+    count.append(money // coin)
+    money %= coin
+
+print(sum(count))
