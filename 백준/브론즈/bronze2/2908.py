@@ -1,0 +1,12 @@
+# 2908.py
+# 상수
+
+a, b = map(str, input().split())
+
+a = int(a[::-1])
+b = int(b[::-1])
+
+if a > b:
+    print(a)
+else:
+    print(b)
