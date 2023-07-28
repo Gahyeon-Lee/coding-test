@@ -1,7 +1,7 @@
 # 6-1.py
 # 선택정렬 소스코드
 
-array = [7, 5, 9,0, 3, 1, 6, 2, 4, 8]
+array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 
 for i in range(len(array)):
     min_index = i # 가장 작은 원소의 인덱스
