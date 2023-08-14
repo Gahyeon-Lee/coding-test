@@ -3,7 +3,7 @@
 
 from collections import deque
 
-n, m , k, x = map(int, input().split())
+n, m, k, x = map(int, input().split())
 
 graph = [[] for _ in range(n + 1)]
 for _ in range(m):
@@ -13,7 +13,7 @@ for _ in range(m):
 distance = [-1] * (n + 1)
 distance[x] = 0
 
-queue = deque([x])    
+queue = deque([x])
 while queue:
     now = queue.popleft()
     for i in graph[now]:
