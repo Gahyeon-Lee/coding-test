@@ -45,7 +45,3 @@ while q:
                     
         
 print(graph[target_x - 1][target_y - 1])
-
-
-# s를 어떻게 이용해야 하는가
-# 어떻게 한 번씩만 반복을 돌릴 것인가
