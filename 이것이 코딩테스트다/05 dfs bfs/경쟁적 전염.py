@@ -1,4 +1,4 @@
-#  경쟁적 전염
+# 경쟁적 전염
 # 난이도 2 | 풀이 시간 50분 | 시간 제한 1초 | 메모리 제한 256MB
 
 from collections import deque
@@ -11,7 +11,7 @@ data = [] # 바이러스에 대한 정보를 담는 리스트
 for i in range(n):
     graph.append(list(map(int,input().split())))
     
-    for j in range(n):
+    for j in range(n): 
         # 해당 위치에 비이러스가 존재하는 경우
         if graph[i][j] != 0:
             # (바이러스 종류, 시간, 위치 X, 위치 Y) 삽입
