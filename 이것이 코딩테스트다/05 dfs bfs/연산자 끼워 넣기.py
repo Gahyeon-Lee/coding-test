@@ -22,7 +22,7 @@ def dfs(i, now):
         if sub > 0:
             sub -= 1
             dfs(i + 1, now - data[i])
-            sub == 1
+            sub += 1
         if mul > 0:
             mul -= 1
             dfs(i + 1, now * data[i])
