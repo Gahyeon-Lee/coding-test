@@ -1,4 +1,4 @@
-// 백준 실버1 1991
+package tree;// 백준 실버1 1991
 //트리순회
 
 import java.io.*;
